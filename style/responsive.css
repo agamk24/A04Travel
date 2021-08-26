@@ -1,0 +1,62 @@
+/*Tablet*/
+@media all and (max-width: 1000px) {
+  .header {
+    height: 70px;
+  }
+
+  .header-logo {
+    padding: 10px 10px;
+  }
+
+  .header-logo img {
+    width: 120px;
+    margin-top: 15px;
+  }
+  .header-list li {
+    padding: 23px 20px;
+    font-size: 13px;
+  }
+
+  .banner {
+    padding-bottom: 30px;
+  }
+
+  .text-contents {
+    padding-top: 40px;
+  }
+}
+
+/*Smartphone*/
+@media all and (max-width: 671px) {
+  .header {
+    height: 60px;
+  }
+
+  .header-logo {
+    padding: 3px 10px;
+  }
+
+  .header-logo img {
+    width: 100px;
+    padding-top: 10px;
+  }
+  .header-list a {
+    display: none;
+  }
+
+  .text-contents {
+    padding-top: 30px;
+  }
+
+  .text-contents h2 {
+    font-size: 200%;
+  }
+
+  .footer-logo img {
+    width: 140px;
+  }
+
+  .footer p {
+    font-size: 13px;
+  }
+}

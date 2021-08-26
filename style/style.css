@@ -1,0 +1,292 @@
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+form,
+input,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: 'Avenir Next';
+}
+
+li {
+  list-style: none;
+  float: left;
+  padding: 33px 20px;
+}
+
+.header-list a {
+  list-style: none;
+  float: left;
+  padding: 33px 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.header-list a:hover {
+  cursor: pointer;
+  background-color: #252525;
+}
+
+header {
+  width: 100%;
+  background-color: #949494;
+  color: #fff;
+  height: 85px;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  opacity: 90%;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 20px;
+}
+
+.header-logo img {
+  width: 150px;
+}
+
+.main {
+  background-image: url(https://images.unsplash.com/photo-1488085061387-422e29b40080?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80);
+  background-size: cover;
+  height: 100%;
+  text-align: center;
+  padding: 120px;
+  opacity: 0.9;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.logo img {
+  width: 200px;
+  height: 200px;
+}
+
+.see_promo a {
+  display: inline-block;
+  padding: 0.7% 2%;
+  border: 1px solid yellowgreen;
+  text-decoration: none;
+  color: white;
+  background-color: rgba(190, 227, 141, 0.7);
+  margin: 1.5%;
+  border-radius: 10px;
+}
+
+.see_promo p {
+  color: white;
+}
+
+.see_promo a:hover {
+  background-color: rgba(190, 227, 141, 1);
+}
+
+.see_promo a:active {
+  padding: 0.8% 2.3%;
+  position: relative;
+  bottom: 2px;
+  margin-bottom: 1.3%;
+}
+
+.contents {
+  position: relative;
+  background-color: #fff;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  height: 500px;
+  border-bottom: 1px solid gray;
+}
+
+.text-contents {
+  padding: 0% 15%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+  color: grey;
+}
+
+.text-contents h2 {
+  text-align: center;
+  font-size: 300%;
+  color: black;
+}
+
+.text-contents p {
+  padding-top: 30px;
+}
+
+.content {
+  padding-bottom: 100px;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.content h2 {
+  font-size: 300%;
+}
+
+.content h5 {
+  font-size: 80%;
+  color: grey;
+  padding-bottom: 30px;
+}
+
+.grid_1 {
+  float: center;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner .label {
+  color: white;
+  position: absolute;
+  text-align: center;
+  left: 0;
+  top: 50%;
+  margin-top: -38px;
+  right: 0;
+}
+
+.banner .label .price {
+  margin-bottom: 14px;
+  background-color: red;
+  opacity: 0.9;
+}
+
+.banner .label .price span {
+  display: block;
+  font-size: 24px;
+  padding-top: 3px;
+  /* padding-bottom: 50px; */
+  font-weight: bold;
+  background-color: red;
+  opacity: 0.9;
+}
+
+.banner a {
+  display: inline-block;
+  padding: 2% 3%;
+  border: 1px solid yellowgreen;
+  text-decoration: none;
+  color: white;
+  background-color: rgba(118, 179, 38, 0.7);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.banner a:hover {
+  background-color: yellowgreen;
+  color: #fff;
+}
+
+.banner img {
+  width: 300px;
+}
+
+.profil {
+  width: 100%;
+}
+
+.profil-logo {
+  position: relative;
+  width: 280px;
+}
+
+.text-profil {
+  text-align: center;
+  display: block;
+  font-size: 16px;
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+  height: 90px;
+  background-color: #949494;
+  color: white;
+}
+
+.footer-logo img {
+  float: left;
+  width: 150px;
+  padding: 30px 20px;
+}
+
+.footer p {
+  color: #fff;
+  text-align: center;
+  padding-top: 60px;
+  padding-right: 120px;
+}
+
+.contact {
+  border-top: 1px solid rgb(141, 141, 141);
+  text-align: center;
+  padding: 100px 20px;
+  height: 400px;
+}
+
+.contact h2 {
+  font-size: 300%;
+  padding-bottom: 30px;
+}
+
+.contact a {
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 15px 20px;
+  margin-right: 20px;
+}
+
+.ig {
+  background-color: #833ab4;
+}
+.ig:hover {
+  background-color: #9870b3;
+}
+
+.fb {
+  background-color: #4267b2;
+}
+.fb:hover {
+  background-color: #6f86b4;
+}
+
+.tw {
+  background-color: #1da1f2;
+}
+.tw:hover {
+  background-color: #57b5f0;
+}
